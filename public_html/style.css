@@ -1,0 +1,265 @@
+body{
+	background-color: 	#f2f3e0;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: medium;
+	margin: 0px;
+}
+
+#background{
+	background: url(images/background-image.jpg) top left;
+	
+	background-repeat:repeat-x;
+}
+
+#allcontent {
+	width: 1333px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background: #f2f3e0;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+#header {
+	background-color: #38672f;
+	margin: 10px 250px 0px 250px;
+	height: 78px;/*78 px;*/
+	width: 833px;
+}
+
+.nav li{
+	list-style: none;
+	display: inline;
+	float:left;
+	padding:0px 13px;	
+	height: 78px;
+	text-align:center;
+	line-height: 78px;
+	white-space:nowrap;
+	font-weight: bold;
+	text-decoration: none;
+}	
+
+.nav li.logo{
+	border:none;
+	display: inline;
+	float: left;
+	margin: 0px -5px 0px -49px;
+}
+
+
+.selected{
+	background-color:#26592A;
+}
+
+
+
+.nav li:hover {
+	background-color:#26592A;
+	color:#26592A;
+	font-weight:bold;
+}
+
+
+.nav li a:link{
+	text-decoration:none;
+}
+
+.nav li a:visited{
+	text-decoration: none;
+}
+
+.nav li a:hover{
+	border-bottom: dashed #FFFFFF;
+	font-weight:bolder;
+}
+
+
+
+#banner{
+	margin: 0px 250px;
+}
+
+#heading{
+	margin: 0px 250px 0px 250px;
+	width: 833px;
+	background:#f2f3e0;
+	text-align:center;
+	height:80px;
+	line-height:45px;
+}
+
+#main {
+	background: #f2f3e0;
+	font-size: 105%;
+	padding: 0px 0px 0px 10px;
+	margin: -35px 0px 10px 250px;
+	width: 460px;
+	float: left;
+	border:thin;
+	text-align:justify;
+	line-height:150%;
+}
+
+#sidebar {
+	background: #f2f3e0;
+	font-size: 105%;
+	padding: 0px 25px;
+	margin: -42px 2px 10px 748px;
+	width: 285px;
+	text-align: justify;
+}
+
+
+#footer{
+	background-color: #38672f;
+	color: #000;
+	text-align: center;
+	padding: 10px;
+	margin: 10px 250px;
+	font-size: 80%;	
+	clear: both;
+}
+
+#footer a:hover{
+	color:#000;
+}
+
+#title{
+	margin:-10px 250px 10px 250px;	
+	color: #38672f;
+	text-align:center;
+	width: 833px;
+}
+
+
+h1 {
+	font-size: 230%;
+	color: #38672f;
+}
+
+#sidebar h3 {
+	font-weight:normal;
+	text-decoration: underline;
+	font-size: 110%;
+}
+
+.seniors {
+	font-weight: bold;
+}
+
+a{
+	color: #000;
+}
+
+p a:link{
+	color: #03F;
+}
+
+p a:hover{
+	color: #38672f;
+}
+
+p a:visited{
+	color: #38672f;
+}
+
+#main p img{
+	float:left;
+}
+
+#header table{
+	border: solid;
+	
+}
+	
+#rotating-item-wrapper {
+	position: relative;
+	width: 833px;
+	height: 200px;
+	margin: 0px 250px 0px 250px;
+}
+.rotating-item {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#roster{
+	margin: 0px 250px;
+	border-collapse: collapse;
+	background-color: #f2f3e0;
+	border-color: #38672f;
+	line-height: 160%;
+}
+
+#roster td{
+	padding:2px 5px;
+}
+
+#roster tr:hover{
+	background-color:#CCC;
+}
+
+
+#schedule{
+	margin: 0px 250px;
+	background-color:#f2f3e0;
+	border-spacing: 20px;
+	
+}
+
+#caption{
+	margin: 20px 270px;
+	font-weight:bold;
+	border: solid 2px;	
+	text-align:center;
+	padding: 5px;	
+	line-height: 140%;
+}
+
+#coaches{
+	margin: -15px 270px 0px 270px;
+	font-weight:bold;
+	border: none;	
+	text-align:center;
+	padding: 0px;	
+	line-height: 140%;
+}
+
+
+#history{
+	margin: 0px 250px;
+	background-color: #f2f3e0;
+	padding: 0px 15px;	
+	text-align: justify;
+	line-height: 140%;
+	font-size:105%
+
+}
+
+#about{
+	margin: 0px 250px;
+	background-color: #f2f3e0;
+	padding: 0px 15px;	
+	text-align: justify;
+	line-height: 130%;
+	font-size:120%;
+}
+
+.faq{
+	color:#38672f;
+	text-align:center;
+}
+
+#prospective{
+		margin: 0px 250px;
+	background-color: #f2f3e0;
+	padding: 0px 15px;	
+	text-align: justify;
+	line-height: 130%;
+	font-size:120%;
+	
+}
